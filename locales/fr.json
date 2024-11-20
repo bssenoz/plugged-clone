@@ -1,0 +1,20 @@
+{
+    "welcome": "Test11",
+    "global": {
+      "site": {
+        "name": "Vantalii.com",
+        "explore": "Explorer",
+        "about": "À propos",
+        "contactUs": "Contactez-nous",
+        "check":"Vérifier",
+        "more": "Plus...",
+        "payment": "Paiement",
+        "price": "Prix",
+        "languages": "Langues",
+        "currencies": "Devises",
+        "rating": "Évaluation",
+        "reviews": "Avis",
+        "review": "Écrire un avis"
+      }
+    }
+  }

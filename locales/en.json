@@ -1,0 +1,260 @@
+{
+  "common": {
+    "button": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "save": "Save",
+      "submit": "Submit",
+      "delete": "Delete",
+      "edit": "Edit",
+      "view": "View",
+      "update": "Update",
+      "create": "Create",
+      "search": "Search",
+      "filter": "Filter",
+      "add": "Add",
+      "remove": "Remove",
+      "confirm": "Confirm",
+      "reject": "Reject",
+      "accept": "Accept",
+      "yes": "Yes",
+      "no": "No",
+      "viewAll": "View All",
+      "viewMore": "View More",
+      "loadMore": "Load More",
+      "showMore": "Show More",
+      "showLess": "Show Less",
+      "previous": "Previous",
+      "next": "Next",
+      "back": "Back",
+      "continue": "Continue",
+      "send": "Send",
+      "ok": "OK",
+      "confirmAndPay": "Confirm and Pay",
+      "payNow": "Pay Now",
+      "pay": "Pay",
+      "book": "Book",
+      "purchase": "Purchase",
+      "addToCart": "Add to Cart",
+      "removeFromCart": "Remove from Cart",
+      "proceedToCheckout": "Proceed to Checkout",
+      "proceedToPayment": "Proceed to Payment",
+      "proceedToPay": "Proceed to Pay",
+      "proceed": "Proceed",
+      "bookNow": "Book Now"
+    },
+    "activityCard": {
+      "duration": "Duration",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "days": "Days",
+      "nights": "Nights",
+      "perPerson": "Per Person",
+      "freeCancellation": "Free Cancellation",
+      "instantConfirmation": "Instant Confirmation",
+      "mobileTicket": "Mobile Ticket",
+      "skipTheLine": "Skip The Line",
+      "audioGuide": "Audio Guide",
+      "specialOffer": "Special Offer",
+      "bestSeller": "Best Seller",
+      "reviews": "Reviews",
+      "rating": "Rating",
+      "price": "Price",
+      "from": "From",
+      "fromPrice": "From Price",
+      "fromText": "From Text",
+      "fromPriceText": "From Price Text",
+      "free": "Free",
+      "discount": "Discount",
+      "instant": "Instant",
+      "confirmation": "Confirmation",
+      "mobile": "Mobile",
+      "ticket": "Ticket",
+      "skip": "Skip",
+      "open": "Open",
+      "date": "Date",
+      "group": "Group",
+      "tour": "Tour",
+      "private": "Private",
+      "audio": "Audio",
+      "guide": "Guide",
+      "special": "Special",
+      "offer": "Offer",
+      "best": "Best",
+      "seller": "Seller",
+      "totalPrice": "Total Price",
+      "taxesAndFeesIncluded": "All taxes and fees included",
+      "activityPeriod": "Activity Period"
+    }
+  },
+  "global": {
+    "site": {
+      "explore": "Explore",
+      "about": "About",
+      "contactUs": "Contact Us",
+      "checkAvailability": "Check Availability",
+      "more": "More...",
+      "payment": "From",
+      "price": "Price",
+      "languages": "Languages",
+      "currencies": "Currencies",
+      "rating": "Puan",
+      "review": "Review",
+      "reviews": "Reviews",
+      "bestPriceGuarantee": "Best Price Guarantee",
+      "fullDescription": "Full Description",
+      "summary": "Summary",
+      "WhatToBring": "What to Bring",
+      "knowBeforeYouGo": "Know Before You Go",
+      "inclusionsAndExclusions": "Inclusions and Exclusions",
+      "exclusions": "Exclusions",
+      "inclusions": "Inclusions",
+      "paymentOptions": {
+        "type": {
+          "FULL_PAYMENT": "Full Payment",
+          "PARTIAL_PAYMENT": "Partial Payment",
+          "NO_PAYMENT": "No Payment",
+          "PAY_ON_SPOT": "Buy now & Pay on spot"
+        },
+        "description": {
+          "FULL_PAYMENT": "Pay the full amount upfront when making the reservation",
+          "PARTIAL_PAYMENT": "Pay a part of the service amount when making the reservation, complete the remaining part later",
+          "NO_PAYMENT": "Pay the full amount on the date of service without making any payment when making the reservation",
+          "PAY_ON_SPOT": "No payment is required when making the reservation, the full amount will be paid on the date of service"
+        }
+      }
+    }
+  },
+  "pages": {
+    "book": {
+      "selectDate": "Select A Date",
+      "selectPreference": "Select Your Preference",
+      "selectStartTime": "Please Select Start Time",
+      "endTime": "End Time",
+      "startTime": "Start Time",
+      "inclusion": "Inclusion",
+      "priceDetails": "Price Details",
+      "PERSON": "Person",
+      "ADULT": "Adult",
+      "CHILD": "Child",
+      "INFANT": "Infant",
+      "total": "Total",
+      "activityDate": "Activity Date",
+      "participants": "Participants",
+      "totalPrice": "Total Price",
+      "packages": "Packages",
+      "button": {
+        "RESERVATION": "Reserve Now",
+        "PURCHASE": "Purchase Now",
+        "addCart": "Add to Cart",
+        "addedCart": "Added to Cart"
+      }
+    },
+    "success": {
+      "cardTitle": "Congratulations !!!",
+      "cardSubtitle": "Your reservation process was successful.",
+      "cardWhatsNext": "What happens next?",
+      "cardDescription": "You will receive an information email to your mailbox."
+    },
+    "fail": {
+      "cardTitle": "We encountered an error.",
+      "cardSubtitle": "An error occurred during the reservation process."
+    }
+  },
+  "components": {
+    "thingsToDo": {
+      "title": "Top Things to do in {destination}"
+    },
+    "contactDialog": {
+      "contactPerson": "Contact Person Information",
+      "transferMap": "Transfer Region",
+      "otherInformation": "Other Information",
+      "additionalData": {
+        "hotelName": "Hotel Name",
+        "roomNumber": "Room Number",
+        "referenceCode": "Reference Code"
+      },
+      "contactInformation": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "eMail": "E-Mail",
+        "phoneCode": "Country Code",
+        "phoneNumber": "Phone Number"
+      }
+    }
+  },
+  "checkout": {
+    "contact": {
+      "title": "Contact Information",
+      "firstName": {
+        "label": "First Name",
+        "error": "First Name required!"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "error": "Last Name required!"
+      },
+      "email": {
+        "label": "Email",
+        "error1": "E-posta gerekli!",
+        "error2": "Geçerli bir e-posta adresi girin!"
+      },
+      "countryCode": {
+        "label": "Country Code"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "error1": "Phone Number required!",
+        "error2": "It should consist of numbers!",
+        "error3": "Phone number must be 10 characters!"
+      },
+      "completeReservartion": "Complete Reservation"
+    },
+    "additionalInfo": {
+      "hotelName": {
+        "label": "Hotel Name"
+      },
+      "roomNumber": {
+        "label": "Room Number"
+      },
+      "otherNotes": {
+        "label": "Other Notes"
+      }
+    },
+    "payment": {
+      "cardInformation": "Card Information",
+      "personName": "Person Name",
+      "cardNumber": "Card Number",
+      "cardMonth": "Card Month",
+      "cardYear": "Card Year",
+      "cvv": "CVV",
+      "payNow": "Pay Now",
+      "error": {
+        "cardOwnerName": {
+          "error1": "Name must be at least 2 characters long!",
+          "error2": "Cardholder's name and surname are required!"
+        },
+        "cardNumber": {
+          "error1": "Invalid card number!",
+          "error2": "Card number is required!"
+        },
+        "cardValidMonth": {
+          "error1": "Must be a number!",
+          "error2": "Card expiration month is required!",
+          "error3": "Please enter a valid month!"
+        },
+        "cardValidYear": {
+          "error1": "Must be a number!",
+          "error2": "Card expiration year is required!",
+          "error3": "Cannot select past years!",
+          "error4": "You cannot select a date more than 10 years forward or backward! (Last 2 digits)",
+          "error5": "Year must be 2 digits1"
+        },
+        "cvv": {
+          "error1": "Invalid CVV!",
+          "error2": "CVV is required!"
+        }
+      }
+    }
+  }
+}

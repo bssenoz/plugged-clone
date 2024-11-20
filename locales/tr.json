@@ -1,0 +1,260 @@
+{
+  "common": {
+    "button": {
+      "cancel": "İptal",
+      "close": "Kapat",
+      "save": "Kaydet",
+      "submit": "Gönder",
+      "delete": "Sil",
+      "edit": "Düzenle",
+      "view": "Görüntüle",
+      "update": "Güncelle",
+      "create": "Oluştur",
+      "search": "Ara",
+      "filter": "Filtrele",
+      "add": "Ekle",
+      "remove": "Kaldır",
+      "confirm": "Onayla",
+      "reject": "Reddet",
+      "accept": "Kabul Et",
+      "yes": "Evet",
+      "no": "Hayır",
+      "viewAll": "Hepsini Gör",
+      "viewMore": "Daha Fazla Gör",
+      "loadMore": "Daha Fazla Yükle",
+      "showMore": "Daha Fazla Göster",
+      "showLess": "Daha Az Göster",
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "back": "Geri",
+      "continue": "Devam Et",
+      "send": "Gönder",
+      "ok": "Tamam",
+      "confirmAndPay": "Onayla ve Öde",
+      "payNow": "Şimdi Öde",
+      "pay": "Öde",
+      "book": "Rezerve Et",
+      "purchase": "Satın Al",
+      "addToCart": "Sepete Ekle",
+      "removeFromCart": "Sepetten Çıkar",
+      "proceedToCheckout": "Ödemeye Geç",
+      "proceedToPayment": "Ödemeye Geç",
+      "proceedToPay": "Ödemeye Geç",
+      "proceed": "Devam Et",
+      "bookNow": "Rezervasyon Yap"
+    },
+    "activityCard": {
+      "duration": "Süre",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "days": "Gün",
+      "nights": "Gece",
+      "perPerson": "Kişi Başı",
+      "freeCancellation": "Ücretsiz İptal",
+      "instantConfirmation": "Anında Onay",
+      "mobileTicket": "Mobil Bilet",
+      "skipTheLine": "Sıra Beklemeden",
+      "audioGuide": "Sesli Rehber",
+      "specialOffer": "Özel Teklif",
+      "bestSeller": "Çok Satan",
+      "reviews": "Yorumlar",
+      "rating": "Puan",
+      "price": "Ücret",
+      "from": "Başlangıç",
+      "fromPrice": "Başlangıç Ücreti",
+      "fromText": "Başlangıç Metni",
+      "fromPriceText": "Başlangıç Ücreti Metni",
+      "free": "Ücretsiz",
+      "discount": "İndirim",
+      "instant": "Anında",
+      "confirmation": "Onay",
+      "mobile": "Mobil",
+      "ticket": "Bilet",
+      "skip": "Sıra Beklemeden",
+      "open": "Açık",
+      "date": "Tarihli",
+      "group": "Grup",
+      "tour": "Turu",
+      "private": "Özel",
+      "audio": "Sesli",
+      "guide": "Rehber",
+      "special": "Özel",
+      "offer": "Teklif",
+      "best": "Çok",
+      "seller": "Satan",
+      "totalPrice": "Toplam Fiyat",
+      "taxesAndFeesIncluded": "Tüm Vergiler ve Ücretler Dahil",
+      "activityPeriod": "Etkinlik Süresi"
+    }
+  },
+  "global": {
+    "site": {
+      "explore": "Keşfet",
+      "about": "Hakkında",
+      "contactUs": "Bize Ulaşın",
+      "checkAvailability": "Müsaitlik Sorgula",
+      "more": "Daha Fazla",
+      "payment": "Ödeme",
+      "price": "Ücret",
+      "languages": "Diller",
+      "currencies": "Para Birimi",
+      "rating": "Puan",
+      "review": "Görüntülenme",
+      "reviews": "Görüntülenme",
+      "bestPriceGuarantee": "En İyi Fiyat Garantisi",
+      "fullDescription": "Tam Açıklama",
+      "summary": "Özet",
+      "WhatToBring": "Neler Getirmeli",
+      "knowBeforeYouGo": "Gitmeden Önce Bilmeniz Gerekenler",
+      "inclusionsAndExclusions": "Dahil Olanlar ve Hariç Olanlar",
+      "exclusions": "Hariç Olanlar",
+      "inclusions": "Dahil Olanlar",
+      "paymentOptions": {
+        "type": {
+          "FULL_PAYMENT": "Tam Ödeme",
+          "PARTIAL_PAYMENT": "Kısmi Ödeme",
+          "NO_PAYMENT": "Ödemesiz",
+          "PAY_ON_SPOT": "Şimdi al & Yerinde Öde"
+        },
+        "description": {
+          "FULL_PAYMENT": "Rezervasyon yaparken hizmetin bedelini peşin olarak tamamen ödeyin",
+          "PARTIAL_PAYMENT": "Rezervasyon yaparken hizmetin bedelinin bir kısmını ödeyin, kalan kısmını daha sonra tamamlayın",
+          "NO_PAYMENT": "Ödemeyi rezervasyon yaparken yapmayın, hizmetin alınacağı tarihte ödeme yapın",
+          "PAY_ON_SPOT": "Rezervasyon yaparken herhangi bir ödeme yapmadan, hizmetin alınacağı tarihte ödeme yapın"
+        }
+      }
+    }
+  },
+  "pages": {
+    "book": {
+      "selectDate": "Tarih Seçiniz",
+      "selectPreference": "Tercihinizi Seçiniz",
+      "selectStartTime": "Başlangıç Saatini Seçiniz",
+      "endTime": "Bitiş Saati",
+      "startTime": "Başlangıç Saati",
+      "inclusion": "Dahil Olanlar",
+      "priceDetails": "Fiyat Detayları",
+      "PERSON": "Kişi",
+      "ADULT": "Yetişkin",
+      "CHILD": "Çocuk",
+      "INFANT": "Bebek",
+      "total": "Toplam",
+      "activityDate": "Etkinlik Tarihi",
+      "participants": "Katılımcılar",
+      "totalPrice": "Toplam Fiyat",
+      "packages": "Paketler",
+      "button": {
+        "RESERVATION": "Rezerve Et",
+        "PURCHASE": "Ödeme Yap",
+        "addCart": "Sepete Ekle",
+        "addedCart": "Sepete Eklendi"
+      }
+    },
+    "success": {
+      "cardTitle": "Tebrikler !!!",
+      "cardSubtitle": "Rezervasyon işleminiz başarılı.",
+      "cardWhatsNext": "Şimdi ne olacak ?",
+      "cardDescription": "Mail kutunuza bilgi maili gelecektir."
+    },
+    "fail": {
+      "cardTitle": "Bir hata ile karşılaştık.",
+      "cardSubtitle": "Rezervasyon işleminde bir hata meydana geldi."
+    }
+  },
+  "components": {
+    "thingsToDo": {
+      "title": "{destination}'da Yapılacak En İyi Şeyler"
+    },
+    "contactDialog": {
+      "contactPerson": "İletişim Bilgileri",
+      "transferMap": "Transfer Bölgesi",
+      "otherInformation": "Diğer Bilgiler",
+      "additionalData": {
+        "hotelName": "Otel Adı",
+        "roomNumber": "Oda Numarası",
+        "referenceCode": "Referans Kodu"
+      },
+      "contactInformation": {
+        "firstName": "İsim",
+        "lastName": "Soyisim",
+        "eMail": "E-Mail",
+        "phoneCode": "Ülke Kodu",
+        "phoneNumber": "Telefon Numarası"
+      }
+    }
+  },
+  "checkout": {
+    "contact": {
+      "title": "İletişim Bilgileri",
+      "firstName": {
+        "label": "Ad",
+        "error": "First Name required!"
+      },
+      "lastName": {
+        "label": "Soyad",
+        "error": "Last Name required!"
+      },
+      "email": {
+        "label": "E-posta",
+        "error1": "E-posta gerekli!",
+        "error2": "Geçerli bir e-posta adresi girin!"
+      },
+      "countryCode": {
+        "label": "Ülke Kodu"
+      },
+      "phoneNumber": {
+        "label": "Telefon Numarası",
+        "error1": "Telefon Numarası gerekli!",
+        "error2": "Numaralardan oluşmalı!",
+        "error3": "Telefon numarası 10 karakter olmalıdır!"
+      },
+      "completeReservartion": "Rezervasyonu Tamamla"
+    },
+    "additionalInfo": {
+      "hotelName": {
+        "label": "Otel Adı"
+      },
+      "roomNumber": {
+        "label": "Oda Numarası"
+      },
+      "otherNotes": {
+        "label": "Diğer Notlar"
+      }
+    },
+    "payment": {
+      "cardInformation": "Kart Bilgileri",
+      "personName": "Kişinin Adı",
+      "cardNumber": "Kart Numarası",
+      "cardMonth": "Kart Ayı",
+      "cardYear": "Kart Yılı",
+      "cvv": "CVV",
+      "payNow": "Öde",
+      "error": {
+        "cardOwnerName": {
+          "error1": "İsim minimum 2 karakterli olmalıdır!",
+          "error2": "Kredi kartı kullanıcısın isim ve soyisimi zorunludur!"
+        },
+        "cardNumber": {
+          "error1": "Kart numarası geçersiz!",
+          "error2": "Kart numarası zorunludur!"
+        },
+        "cardValidMonth": {
+          "error1": "Numara olmak zorundadır!",
+          "error2": "Kart geçerlilik ayı zorunludur!",
+          "error3": "Geçerli bir ay giriniz!"
+        },
+        "cardValidYear": {
+          "error1": "Numara olmak zorundadır!",
+          "error2": "Kart geçerlilik yılı zorunludur!",
+          "error3": "Geçmiş yılları seçemezsiniz!",
+          "error4": "10 yıldan fazla ileri ya da geri tarih seçemezsiniz! (Son 2 hane)",
+          "error5": "Yıl 2 haneli olmalıdır!"
+        },
+        "cvv": {
+          "error1": "CVV geçersiz!",
+          "error2": "CVV zorunldur!"
+        }
+      }
+    }
+  }
+}

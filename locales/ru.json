@@ -1,0 +1,260 @@
+{
+  "common": {
+    "button": {
+      "cancel": "Отмена",
+      "close": "Закрыть",
+      "save": "Сохранить",
+      "submit": "Отправить",
+      "delete": "Удалить",
+      "edit": "Редактировать",
+      "view": "Просмотр",
+      "update": "Обновить",
+      "create": "Создать",
+      "search": "Поиск",
+      "filter": "Фильтр",
+      "add": "Добавить",
+      "remove": "Удалить",
+      "confirm": "Подтвердить",
+      "reject": "Отклонить",
+      "accept": "Принять",
+      "yes": "Да",
+      "no": "Нет",
+      "viewAll": "Просмотреть все",
+      "viewMore": "Показать больше",
+      "loadMore": "Загрузить еще",
+      "showMore": "Показать больше",
+      "showLess": "Показать меньше",
+      "previous": "Предыдущий",
+      "next": "Следующий",
+      "back": "Назад",
+      "continue": "Продолжить",
+      "send": "Отправить",
+      "ok": "Ок",
+      "confirmAndPay": "Подтвердить и оплатить",
+      "payNow": "Оплатить сейчас",
+      "pay": "Оплатить",
+      "book": "Забронировать",
+      "purchase": "Купить",
+      "addToCart": "Добавить в корзину",
+      "removeFromCart": "Убрать из корзины",
+      "proceedToCheckout": "Перейти к оформлению заказа",
+      "proceedToPayment": "Перейти к оплате",
+      "proceedToPay": "Перейти к оплате",
+      "proceed": "Продолжить",
+      "bookNow": "Забронировать сейчас"
+    },
+    "activityCard": {
+      "duration": "Продолжительность",
+      "hours": "Часов",
+      "minutes": "Минут",
+      "days": "Дней",
+      "nights": "Ночей",
+      "perPerson": "На человека",
+      "freeCancellation": "Бесплатная отмена",
+      "instantConfirmation": "Мгновенное подтверждение",
+      "mobileTicket": "Мобильный билет",
+      "skipTheLine": "Пропустить очередь",
+      "audioGuide": "Аудиогид",
+      "specialOffer": "Специальное предложение",
+      "bestSeller": "Бестселлер",
+      "reviews": "Отзывы",
+      "rating": "Рейтинг",
+      "price": "Цена",
+      "from": "От",
+      "fromPrice": "От цены",
+      "fromText": "От текста",
+      "fromPriceText": "От цены текста",
+      "free": "Бесплатно",
+      "discount": "Скидка",
+      "instant": "Мгновенное",
+      "confirmation": "Подтверждение",
+      "mobile": "Мобильное",
+      "ticket": "Билет",
+      "skip": "Пропустить",
+      "open": "Открыто",
+      "date": "Дата",
+      "group": "Группа",
+      "tour": "Тур",
+      "private": "Частный",
+      "audio": "Аудио",
+      "guide": "Гид",
+      "special": "Специальное",
+      "offer": "Предложение",
+      "best": "Лучший",
+      "seller": "Продавец",
+      "totalPrice": "Итоговая цена",
+      "taxesAndFeesIncluded": "Включены все налоги и сборы",
+      "activityPeriod": "Период активности"
+    }
+  },
+  "global": {
+    "site": {
+      "explore": "Исследовать",
+      "about": "О нас",
+      "contactUs": "Связаться с нами",
+      "checkAvailability": "Проверить доступность",
+      "more": "Больше",
+      "payment": "Оплата",
+      "price": "Цена",
+      "languages": "Языки",
+      "currencies": "Валюты",
+      "rating": "Рейтинг",
+      "review": "Обзор",
+      "reviews": "Обзоры",
+      "bestPriceGuarantee": "Гарантия лучшей цены",
+      "fullDescription": "Полное описание",
+      "summary": "Краткое описание",
+      "WhatToBring": "Что взять с собой",
+      "knowBeforeYouGo": "Знай перед поездкой",
+      "inclusionsAndExclusions": "Включения и исключения",
+      "exclusions": "Что не включено",
+      "inclusions": "Что включено",
+      "paymentOptions": {
+        "type": {
+          "FULL_PAYMENT": "Полный платеж",
+          "PARTIAL_PAYMENT": "Частичный платеж",
+          "NO_PAYMENT": "Нет платежа",
+          "PAY_ON_SPOT": "Купить сейчас и оплатить на месте"
+        },
+        "description": {
+          "FULL_PAYMENT": "Оплатите полную сумму при бронировании услуги",
+          "PARTIAL_PAYMENT": "Оплатите часть суммы услуги при бронировании, оставшуюся часть оплатите позже",
+          "NO_PAYMENT": "Оплатите полную сумму в день оказания услуги, не совершая никаких платежей при бронировании",
+          "PAY_ON_SPOT": "Оплатите полную сумму в день оказания услуги"
+        }
+      }
+    }
+  },
+  "pages": {
+    "book": {
+      "selectDate": "Выберите дату",
+      "selectPreference": "Выберите предпочтение",
+      "selectStartTime": "Выберите время начала",
+      "endTime": "Время окончания",
+      "startTime": "Время начала",
+      "inclusion": "Что включено",
+      "priceDetails": "Детали цены",
+      "PERSON": "Человек",
+      "ADULT": "Взрослый",
+      "CHILD": "Ребенок",
+      "INFANT": "Младенец",
+      "total": "Всего",
+      "activityDate": "Дата мероприятия",
+      "participants": "Участники",
+      "totalPrice": "Общая стоимость",
+      "packages": "Пакеты",
+      "button": {
+        "RESERVATION": "Забронировать",
+        "PURCHASE": "Купить",
+        "addCart": "Добавить в корзину",
+        "addedCart": "Добавлено в корзину"
+      }
+    },
+    "success": {
+      "cardTitle": "Поздравляем !!!",
+      "cardSubtitle": "Ваше бронирование прошло успешно.",
+      "cardWhatsNext": "Что произойдет дальше?",
+      "cardDescription": "Вы получите информационное письмо на свою почту."
+    },
+    "fail": {
+      "cardTitle": "Мы столкнулись с ошибкой.",
+      "cardSubtitle": "Произошла ошибка в процессе бронирования."
+    }
+  },
+  "components": {
+    "thingsToDo": {
+      "title": "Лучшие развлечения в {destination}"
+    },
+    "contactDialog": {
+      "contactPerson": "Контактная информация",
+      "transferMap": "Область деятельности",
+      "otherInformation": "Дополнительная информация",
+      "additionalData": {
+        "hotelName": "Название отеля",
+        "roomNumber": "Номер комнаты",
+        "referenceCode": "Референтный код"
+      },
+      "contactInformation": {
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "eMail": "Электронная почта",
+        "phoneCode": "Код страны",
+        "phoneNumber": "Номер телефона"
+      }
+    }
+  },
+  "checkout": {
+    "contact": {
+      "title": "Контактная информация",
+      "firstName": {
+        "label": "Имя",
+        "error": "Имя обязательно!"
+      },
+      "lastName": {
+        "label": "Фамилия",
+        "error": "Фамилия обязательна!"
+      },
+      "email": {
+        "label": "Электронная почта",
+        "error1": "Электронная почта обязательна!",
+        "error2": "Введите действительный адрес электронной почты!"
+      },
+      "countryCode": {
+        "label": "Код страны"
+      },
+      "phoneNumber": {
+        "label": "Номер телефона",
+        "error1": "Номер телефона обязателен!",
+        "error2": "Должен состоять из цифр!",
+        "error3": "Номер телефона должен содержать 10 символов!"
+      },
+      "completeReservartion": "Завершить бронирование"
+    },
+    "additionalInfo": {
+      "hotelName": {
+        "label": "Название отеля"
+      },
+      "roomNumber": {
+        "label": "Номер комнаты"
+      },
+      "otherNotes": {
+        "label": "Другие примечания"
+      }
+    },
+    "payment": {
+      "cardInformation": "Информация о карте",
+      "personName": "Имя держателя карты",
+      "cardNumber": "Номер карты",
+      "cardMonth": "Месяц карты",
+      "cardYear": "Год карты",
+      "cvv": "CVV",
+      "payNow": "Оплатить",
+      "error": {
+        "cardOwnerName": {
+          "error1": "Имя должно быть не менее 2 символов!",
+          "error2": "Имя и фамилия владельца карты обязательны!"
+        },
+        "cardNumber": {
+          "error1": "Номер карты недействителен!",
+          "error2": "Номер карты обязателен!"
+        },
+        "cardValidMonth": {
+          "error1": "Должен быть числом!",
+          "error2": "Месяц окончания срока действия карты обязателен!",
+          "error3": "Введите действительный месяц!"
+        },
+        "cardValidYear": {
+          "error1": "Должен быть числом!",
+          "error2": "Год окончания срока действия карты обязателен!",
+          "error3": "Вы не можете выбрать прошедшие года!",
+          "error4": "Вы не можете выбрать даты более чем на 10 лет вперед или назад! (Последние 2 цифры)",
+          "error5": "Год должен содержать 2 цифры!"
+        },
+        "cvv": {
+          "error1": "CVV недействителен!",
+          "error2": "CVV обязателен!"
+        }
+      }
+    }
+  }
+}

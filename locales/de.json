@@ -1,0 +1,259 @@
+{
+  "common": {
+    "button": {
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "save": "Speichern",
+      "submit": "Senden",
+      "delete": "Löschen",
+      "edit": "Bearbeiten",
+      "view": "Anzeigen",
+      "update": "Aktualisieren",
+      "create": "Erstellen",
+      "search": "Suchen",
+      "filter": "Filtern",
+      "add": "Hinzufügen",
+      "remove": "Entfernen",
+      "confirm": "Bestätigen",
+      "reject": "Ablehnen",
+      "accept": "Akzeptieren",
+      "yes": "Ja",
+      "no": "Nein",
+      "viewAll": "Alle anzeigen",
+      "viewMore": "Mehr anzeigen",
+      "loadMore": "Mehr laden",
+      "showMore": "Mehr anzeigen",
+      "showLess": "Weniger anzeigen",
+      "previous": "Vorherige",
+      "next": "Nächste",
+      "back": "Zurück",
+      "continue": "Weiter",
+      "send": "Senden",
+      "ok": "OK",
+      "confirmAndPay": "Bestätigen und Bezahlen",
+      "payNow": "Jetzt bezahlen",
+      "pay": "Bezahlen",
+      "book": "Buchen",
+      "purchase": "Kaufen",
+      "addToCart": "In den Warenkorb legen",
+      "removeFromCart": "Aus dem Warenkorb entfernen",
+      "proceedToCheckout": "Zur Kasse gehen",
+      "proceedToPayment": "Zur Zahlung gehen",
+      "proceedToPay": "Zur Zahlung gehen",
+      "proceed": "Fortfahren",
+      "bookNow": "Jetzt Buchen"
+    },
+    "activityCard": {
+      "duration": "Dauer",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "days": "Tage",
+      "nights": "Nächte",
+      "perPerson": "Pro Person",
+      "freeCancellation": "Kostenlose Stornierung",
+      "instantConfirmation": "Sofortige Bestätigung",
+      "mobileTicket": "Mobiles Ticket",
+      "skipTheLine": "An der Schlange vorbei",
+      "audioGuide": "Audioguide",
+      "specialOffer": "Sonderangebot",
+      "bestSeller": "Bestseller",
+      "reviews": "Bewertungen",
+      "rating": "Bewertung",
+      "price": "Preis",
+      "from": "Ab",
+      "fromPrice": "Ab Preis",
+      "fromText": "Ab Text",
+      "fromPriceText": "Ab Preis Text",
+      "free": "Kostenlos",
+      "discount": "Rabatt",
+      "instant": "Sofort",
+      "confirmation": "Bestätigung",
+      "mobile": "Mobil",
+      "ticket": "Ticket",
+      "skip": "Überspringen",
+      "open": "Geöffnet",
+      "date": "Datum",
+      "group": "Gruppe",
+      "tour": "Tour",
+      "private": "Privat",
+      "audio": "Audio",
+      "guide": "Führer",
+      "special": "Spezial",
+      "offer": "Angebot",
+      "best": "Beste",
+      "seller": "Verkäufer",
+      "totalPrice": "Gesamtpreis",
+      "taxesAndFeesIncluded": "Steuern und Gebühren inklusive",
+      "activityPeriod": "Aktivitätsdauer"
+    }
+  },
+  "global": {
+    "site": {
+      "explore": "Erkunden",
+      "about": "Über uns",
+      "contactUs": "Kontaktieren Sie uns",
+      "checkAvailability": "Verfügbarkeit prüfen",
+      "more": "Mehr",
+      "payment": "Zahlung",
+      "price": "Preis",
+      "languages": "Sprachen",
+      "currencies": "Währungen",
+      "rating": "Bewertung",
+      "review": "Bewertung",
+      "reviews": "Bewertungen",
+      "bestPriceGuarantee": "Bestpreisgarantie",
+      "fullDescription": "Vollständige Beschreibung",
+      "summary": "Zusammenfassung",
+      "WhatToBring": "Was mitzubringen ist",
+      "knowBeforeYouGo": "Wissenswertes vor der Reise",
+      "inclusionsAndExclusions": "Einschlüsse und Ausschlüsse",
+      "exclusions": "Ausschlüsse",
+      "inclusions": "Einschlüsse",
+      "paymentOptions": {
+        "type": {
+          "FULL_PAYMENT": "Vollzahlung",
+          "PARTIAL_PAYMENT": "Teilzahlung",
+          "NO_PAYMENT": "Keine Zahlung",
+          "PAY_ON_SPOT": "Jetzt kaufen & Vor Ort zahlen"
+        },
+        "description": {
+          "FULL_PAYMENT": "Zahlen Sie den vollen Betrag im Voraus bei der Reservierung",
+          "PARTIAL_PAYMENT": "Zahlen Sie einen Teil des Servicebetrags bei der Reservierung, den Rest später komplettieren",
+          "NO_PAYMENT": "Zahlen Sie den vollen Betrag am Tag des Services, ohne bei der Reservierung eine Zahlung zu leisten",
+          "PAY_ON_SPOT": "Zahlen Sie den vollen Betrag am Tag des Services"
+        }
+      }
+    }
+  },
+  "pages": {
+    "book": {
+      "selectDate": "Datum auswählen",
+      "selectPreference": "Präferenz auswählen",
+      "selectStartTime": "Startzeit auswählen",
+      "endTime": "Endzeit",
+      "startTime": "Startzeit",
+      "inclusion": "Inklusion",
+      "priceDetails": "Preisdetails",
+      "PERSON": "Person",
+      "ADULT": "Erwachsener",
+      "CHILD": "Kind",
+      "INFANT": "Säugling",
+      "total": "Gesamt",
+      "activityDate": "Aktivitätsdatum",
+      "participants": "Teilnehmer",
+      "totalPrice": "Gesamtpreis",
+      "button": {
+        "RESERVATION": "Reservieren",
+        "PURCHASE": "Kaufen",
+        "addCart": "In den Warenkorb legen",
+        "addedCart": "Zum Warenkorb hinzugefügt"
+      }
+    },
+    "success": {
+      "cardTitle": "Herzlichen Glückwunsch !!!",
+      "cardSubtitle": "Ihre Reservierung wurde erfolgreich abgeschlossen.",
+      "cardWhatsNext": "Was passiert als nächstes?",
+      "cardDescription": "Sie erhalten eine Informations-E-Mail in Ihrem Posteingang."
+    },
+    "fail": {
+      "cardTitle": "Ein Fehler ist aufgetreten.",
+      "cardSubtitle": "Bei der Reservierung ist ein Fehler aufgetreten."
+    }
+  },
+  "components": {
+    "thingsToDo": {
+      "title": "Die besten Aktivitäten in {destination}"
+    },
+    "contactDialog": {
+      "contactPerson": "Kontaktperson Informationen",
+      "transferMap": "Aktivitätsbereich",
+      "otherInformation": "Weitere Informationen",
+      "additionalData": {
+        "hotelName": "Hotelname",
+        "roomNumber": "Zimmernummer",
+        "referenceCode": "Referenzcode"
+      },
+      "contactInformation": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "eMail": "E-Mail",
+        "phoneCode": "Ländervorwahl",
+        "phoneNumber": "Telefonnummer"
+      }
+    }
+  },
+  "checkout": {
+    "contact": {
+      "title": "Kontaktinformationen",
+      "firstName": {
+        "label": "Vorname",
+        "error": "Vorname erforderlich!"
+      },
+      "lastName": {
+        "label": "Nachname",
+        "error": "Nachname erforderlich!"
+      },
+      "email": {
+        "label": "E-Mail",
+        "error1": "E-Mail erforderlich!",
+        "error2": "Bitte geben Sie eine gültige E-Mail-Adresse ein!"
+      },
+      "countryCode": {
+        "label": "Ländervorwahl"
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "error1": "Telefonnummer erforderlich!",
+        "error2": "Muss aus Zahlen bestehen!",
+        "error3": "Die Telefonnummer muss 10 Zeichen lang sein!"
+      },
+      "completeReservartion": "Reservierung abschließen"
+    },
+    "additionalInfo": {
+      "hotelName": {
+        "label": "Hotelname"
+      },
+      "roomNumber": {
+        "label": "Zimmernummer"
+      },
+      "otherNotes": {
+        "label": "Weitere Hinweise"
+      }
+    },
+    "payment": {
+      "cardInformation": "Karteninformationen",
+      "personName": "Name des Karteninhabers",
+      "cardNumber": "Kartennummer",
+      "cardMonth": "Kartenmonat",
+      "cardYear": "Kartenjahr",
+      "cvv": "CVV",
+      "payNow": "Jetzt bezahlen",
+      "error": {
+        "cardOwnerName": {
+          "error1": "Name muss mindestens 2 Zeichen lang sein!",
+          "error2": "Vorname und Nachname des Karteninhabers sind erforderlich!"
+        },
+        "cardNumber": {
+          "error1": "Kartennummer ist ungültig!",
+          "error2": "Kartennummer ist erforderlich!"
+        },
+        "cardValidMonth": {
+          "error1": "Muss eine Zahl sein!",
+          "error2": "Monat der Kartenablaufdatum ist erforderlich!",
+          "error3": "Bitte geben Sie einen gültigen Monat ein!"
+        },
+        "cardValidYear": {
+          "error1": "Muss eine Zahl sein!",
+          "error2": "Jahr der Kartenablaufdatum ist erforderlich!",
+          "error3": "Sie können keine vergangenen Jahre auswählen!",
+          "error4": "Sie können kein Datum wählen, das mehr als 10 Jahre in der Zukunft oder Vergangenheit liegt! (Letzte 2 Ziffern)",
+          "error5": "Jahr muss 2 Ziffern lang sein!"
+        },
+        "cvv": {
+          "error1": "CVV ist ungültig!",
+          "error2": "CVV ist erforderlich!"
+        }
+      }
+    }
+  }
+}
