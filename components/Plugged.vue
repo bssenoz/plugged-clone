@@ -15,10 +15,14 @@
     <swiper :navigation="true" @swiper="onSwiper" class="mySwiper">
         <swiper-slide
             :style="`background: ${hoveredContent?.gradient || 'radial-gradient(50% 155% at 70% 55%, rgb(1, 1, 126) 0%, rgb(4, 2, 50) 100%)'}`">
-            <ContentMobile v-if="isMobile && selectedTab == 1" @hoveredContent="handleHoveredContent" />
-            <Content v-if="!isMobile && selectedTab == 1" @hoveredContent="handleHoveredContent" />
+            <div v-if="isLoading" class="loading-spinner">Loading...</div>
+
+            <ContentMobile v-if="isMobile && selectedTab == 1 && !isLoading" @hoveredContent="handleHoveredContent" />
+            <Content v-if="!isMobile && selectedTab == 1 && !isLoading" @hoveredContent="handleHoveredContent" />
         </swiper-slide>
+
         <swiper-slide class="section2">
+
             <TableMobile v-if="isMobile" />
             <Table @updateColor="handleColorUpdate" v-if="!isMobile" />
         </swiper-slide>
@@ -60,6 +64,7 @@ const swiperApp = ref(null);
 const currentColor = ref('');
 const hoveredContent = ref(null);
 const isMobile = ref(false);
+const isLoading = ref(true);
 
 const tabs = [
     {
@@ -95,6 +100,9 @@ const selectTabs = (id) => {
 onMounted(() => {
     checkScreenWidth();
     window.addEventListener('resize', checkScreenWidth);
+    setTimeout(() => {
+        isLoading.value = false; // Yükleme bitince loading'i false yap
+    }, 2000);
 });
 
 onBeforeUnmount(() => {

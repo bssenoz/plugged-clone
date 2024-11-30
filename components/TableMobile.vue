@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-x-auto overflow-y-scroll max-h-[100vh] px-6 py-4 flex justify-center scrollbar-hidden flex-col">
-    <div class="text-3xl text-gray-300 text-center font-bold mt-80">All Shows</div>
+    <div class="text-3xl text-gray-300 text-center font-bold mt-[120vh]">All Shows</div>
 
     <div v-for="(groupedEvents, year) in groupedEventsByYear" :key="year" class="mt-6" >
       <div class="text-lg text-gray-600 font-bold">{{ year }}</div>
