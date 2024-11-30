@@ -1,14 +1,15 @@
 <script setup lang="ts">
 
+import Plugged from "../components/Plugged.vue"
+
 </script>
+
 <template>
-    <div class="text-xl bg-red-50">
-        Hello 
-    </div>
+
+   <Plugged />
+
 </template>
 
 
 
-<style scoped>
-
-</style>
+<style scoped></style>
