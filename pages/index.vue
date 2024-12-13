@@ -1,12 +1,12 @@
 <script setup lang="ts">
 
-import Plugged from "../components/Plugged.vue"
+import PHero from "../components/PHero.vue"
 
 </script>
 
 <template>
 
-   <Plugged />
+   <PHero />
 
 </template>
 

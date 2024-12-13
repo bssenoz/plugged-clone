@@ -37,24 +37,17 @@ export const contents = [
     },
     {
         number: "04",
-        title: "Content 4",
-        maskImage: "/image/content4.jpg",
-        contentImage: "/contents/mask-4.webp",
-        gradient: "radial-gradient(50% 155% at 70% 55%, rgb(50, 50, 50) 0%, rgb(4, 2, 50) 100%)",
-        color: "#6c4f3d", 
-        mobileColor: "#a17a4f", 
-        text: "This is a sample text for content 4"
+        title: "Project Playground <br>'23 choices",
+        maskImage: "/image/mask-3.webp",
+        contentImage: "/image/2023-Project-Playground-Timvanetten.comWEB-138-2.jpg",
+        gradient: "linear-gradient(135deg, #5252c6 0%, #e9786c 50%, #2f318f 100%)",
+        color: "#e9786c",
+        mobileColor: "#b82d1f",
+        secondaryImage: "/image/james-bond-no-time-to-die-graphic.webp",
+        tertiaryImage: "/image/klm-100-year-anniversary-decor.webp",
+        text: "Project Playground was more than just an experience; it was a networking extravaganza with a dual purpose. Organized by five big names from the industry, it aimed to connect with the audience for both new - and recurring business opportunities all the while showcasing their offerings centered around the three major themes."
     },
-    {
-        number: "05",
-        title: "Content 5",
-        maskImage: "/image/content5.jpg",
-        contentImage: "/contents/mask-5.webp",
-        gradient: "radial-gradient(50% 155% at 70% 55%, rgb(80, 80, 80) 0%, rgb(4, 2, 50) 100%)",
-        color: "#4f5b63", 
-        mobileColor: "#7b8b93", 
-        text: "This is a sample text for content 5"
-    },
+
 ];
 
 export const events = ref([
@@ -176,3 +169,63 @@ export const events = ref([
         videoColor: '#2f318f '
     },
 ])
+
+export const cards = [
+    {
+      title: "Corporate Events",
+      description:
+        "Translate your corporate strategy into a show to celebrate your milestones.",
+      imageUrl: "/image/20160421_SABODM2016_ALL_0873--1920x1080.webp",
+      events: [
+        "Corporate Dinners",
+        "Corporate Festivals",
+        "Branded Events",
+      ],
+    },
+    {
+      title: "Branded Events",
+      description:
+        "Create an everlasting connection between your brand and your audience.",
+      imageUrl:
+        "/image/news-launch-of-solar-car-lightyear-0-in-collaboration-with-pls-1.webp",
+      events: ["Product Launches"],
+    },
+    {
+      title: "Public Events",
+      description:
+        "Entertain your audience with a live show that will take their breath away.",
+      imageUrl: "/image/walibi-fright-nights-gallery-4.webp",
+      events: ["Festivals", "(Opening) Ceremonies", "World Tours"],
+    },
+  ]
+
+  export const moreContents = [
+    {
+        title: "Event Trends to Look Out for in 2024",
+        description:
+          "Empowerment, experience and meaning can be made practical. Take the lead with these 3 key event trends.",
+        image:
+          "/image/2023-Project-Playground-Timvanetten.comWEB-087-1920x1280.jpg",
+      },
+      {
+        title:
+          "Corporate Dinners: A Recipe for Audience Engagement and Business Growth",
+        description:
+          "We invite you to take a look at the recipe for a successful corporate dinners through a contemporary lens!",
+        image: "/image/2023-06-10-PLS-Amway_timvanetten.com-WEB-170-1920x1280.webp",
+      },
+      {
+        title:
+          "Authenticity Matters: Showcasing Local Culture at Custom Corporate Dinners",
+        description:
+          "When working on international dinner events, you have to be able to understand the nuances of various cultures. Learn how to strike te right tone every time!",
+        image: "/image/Frame-15.webp",
+      },
+      {
+        title: "BOD Dinner: The Art of Connection",
+        description:
+          "Experience an extraordinary evening of modern ballet, opera, and live orchestra at a private BOD dinner in a prestigious national museum.",
+        image:
+          "/image/2022-09-PLS-–-Rijks-Dinner-–-Photo-by-Tim-van-Etten-WEB-399-1-1920x1080.webp",
+      },
+  ]
