@@ -1,13 +1,42 @@
 <template>
   <section class="flex flex-col justify-center space-y-4 animate-fade-up ">
 
+    <!-- Mobil Slider -->
+    <div class="lg:hidden">
+      <swiper
+        :slides-per-view="1.2"
+        :space-between="16"
+        class="swiper-container"
+        pagination
 
+      >
+        <swiper-slide v-for="(card, index) in cards" :key="index">
+          <div class="rounded-lg shadow-lg overflow-hidden h-[500px]">
+            <img
+            :src="card.imageUrl"
+            alt="Card Image"
+            class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-500 transform"
+          />
+
+          <div class="absolute left-2 right-0 text-white text-3xl 4xl:text-5xl p-4 title">
+            <h2>{{ card.title }}</h2>
+            <p class="text-lg mt-4">{{ card.description }}</p>
+    
+          </div>
+
+          <div class="mask-overlay"></div>
+          </div>
+          
+        </swiper-slide>
+        
+      </swiper>
+    </div>
     <!-- Cards section -->
-    <div class="flex flex-wrap justify-center space-x-4 ">
+    <div class="hidden lg:flex flex flex-wrap justify-center space-x-4 ">
       <div
         v-for="(card, index) in cards"
         :key="index"
-        class="flex-1 max-w-xs lg:max-w-sm 4xl:max-w-xl mt- card-1"
+        class="flex-1 max-w-xs lg:max-w-sm 4xl:max-w-xl card-1"
       >
         <div
           class="relative rounded-lg shadow-lg overflow-hidden h-[500px] 4xl:h-[700px] card cursor-pointer"
@@ -46,8 +75,9 @@
 </template>
 
 <script lang="ts" setup>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/swiper-bundle.css';
 import { cards } from '../assets/text.js';
-
 </script>
 
 <style scoped>
@@ -60,7 +90,7 @@ import { cards } from '../assets/text.js';
   mask-size: cover;
   -webkit-mask-size: cover;
   z-index: 999;
-  background-color: transparent; /* Ensure the background is transparent */
+  background-color: transparent;
 }
 
 

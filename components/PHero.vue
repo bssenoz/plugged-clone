@@ -15,7 +15,7 @@
     </div>
 
     <div
-      class="absolute top-[40%] left-[10%] transform -translate-y-1/2 text-white text-xl 3xl:text-3xl w-[500px] z-20"
+      class="absolute top-[40%] left-[10%] transform -translate-y-1/2 text-white text-xl 3xl:text-3xl md:w-[500px] z-20"
     >
       <img src="/image/svg/text.svg" class="animate-fade-left" />
       <p class="mt-8 text-lg text-center animate-fade-left ease-out">

@@ -3,8 +3,7 @@
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-32 mt-12">
       <div>
         <ul
-          class="space-y-4 text-3xl 4xl:text-6xl animate-fade-up cursor-follow"
-          ref="cursorFollow"
+          class="space-y-4 text-3xl 4xl:text-6xl animate-fade-up"
         >
           <li>Shows</li>
           <li>About</li>
@@ -73,27 +72,10 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
-const cursorFollow = ref(null);
 
-const handleMouseMove = (event) => {
-  const cursorY = event.pageY; // Sayfanın tamamındaki Y pozisyonu
-  if (cursorFollow.value) {
-    cursorFollow.value.style.transform = `translateY(${cursorY * 0.1}px)`; // Daha doğal bir hareket için 0.1 katsayısı
-  }
-};
-
-onMounted(() => {
-  window.addEventListener("mousemove", handleMouseMove);
-});
-
-onUnmounted(() => {
-  window.removeEventListener("mousemove", handleMouseMove);
-});
 </script>
 
 
 <style scoped>
-.cursor-follow {
-  transition: transform 0.1s ease-out;
-}
+
 </style>

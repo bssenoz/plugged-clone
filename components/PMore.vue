@@ -80,35 +80,49 @@
 
 <script setup>
 import { moreContents } from '~/assets/text';
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
+
 const props = defineProps({
   isHoveredMore: Boolean,
 });
-// Hover durumunu kontrol etmek için bir state
+
 const isHovered = ref(false);
+const isMobile = ref(false);
 
 function getWidthClass(index) {
   switch (index % 4) {
     case 0:
-      return "w-[400px] 4xl:w-[600px]";
+      return "xl:w-[400px] 4xl:w-[600px]";
     case 1:
-      return "w-[600px] 4xl:w-[900px]";
+      return "xl:w-[600px] 4xl:w-[900px]";
     case 2:
-      return "w-[600px] 4xl:w-[900px]";
+      return "xl:w-[600px] 4xl:w-[900px]";
     case 3:
-      return "w-[400px] 4xl:w-[600px] mt-28";
+      return "xl:w-[400px] 4xl:w-[600px] mt-28";
     default:
-      return "w-[400px] 4xl:w-[600px]";
+      return "xl:w-[400px] 4xl:w-[600px]";
   }
 }
 
-// Fare ile üzerine gelindiğinde isHovered durumunu true yap
 const handleMouseOver = () => {
-  isHovered.value = true;
+  if (!isMobile.value) {
+    isHovered.value = true;
+  }
 };
 
+const checkIsMobile = () => {
+  isMobile.value = window.innerWidth <= 1024; 
+  if (isMobile.value) {
+    isHovered.value = true; 
+  }
+};
 
+onMounted(() => {
+  checkIsMobile();
+  window.addEventListener('resize', checkIsMobile);
+});
 </script>
+
 
 <style scoped>
 /* Sphere SVG */

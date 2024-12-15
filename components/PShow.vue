@@ -17,7 +17,7 @@
             <transition name="fade" mode="out-in">
                 <img :key="hoveredContent?.contentImage"
                     :src="hoveredContent?.contentImage || '/image/default-keyvisual.webp'" alt="Default Keyvisual"
-                    class="absolute object-cover z-10 mask-image w-[350px] h-[350px] top-[10%] lg:top-0 4xl:top-[-1rem] left-[10%] lg:left-[35%] md:w-[700px] md:h-[700px] 4xl:w-[1200px] 4xl:h-[1200px]"
+                    class="absolute object-cover z-10 mask-image w-[300px] h-[300px] top-[10%] lg:top-0 4xl:top-[-1rem] left-[10%] lg:left-[35%] md:w-[700px] md:h-[700px] 4xl:w-[1200px] 4xl:h-[1200px]"
                     :style="{
                         maskImage: `url(${hoveredContent?.maskImage || '/image/mask-0.webp'})`,
                         WebkitMaskImage: `url(${hoveredContent?.maskImage || '/image/mask-0.webp'})`
@@ -68,20 +68,8 @@ import { ref } from 'vue';
 import { contents } from '../assets/text.js'
 
 const emit = defineEmits(['updateColor']);
-const scrollPosition = ref(0);
-const scrollLimit = ref(0);
+
 const hoveredContent = ref(null);
-
-const updateScrollLimit = () => {
-    const contentWidth = 600;
-    const totalWidth = contentWidth * contents.length;
-    scrollLimit.value = totalWidth - contentWidth;
-};
-
-const onWheel = (event) => {
-    const scrollAmount = event.deltaY;
-    scrollPosition.value = Math.min(Math.max(scrollPosition.value + scrollAmount, 0), scrollLimit.value);
-};
 
 const handleMouseOver = (content) => {
     hoveredContent.value = content;
@@ -96,8 +84,6 @@ const handleMouseLeave = () => {
     const cursor = document.getElementById('cursor');
     cursor?.classList.remove('grow');
 };
-
-
 
 </script>
 
